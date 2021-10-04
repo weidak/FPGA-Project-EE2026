@@ -20,16 +20,6 @@
 //////////////////////////////////////////////////////////////////////////////////
 
 
-/*module wave_print(
-	input clock_6pt25mhz,
-	input clock_20khz,
-	input clock_5khz
-	input sw,
-	input [15:0]led,
-	input x_start,
-	input y_start,
-	output oled_data
-    );*/
 module wave_print (
 	input CLK100MHZ,
 	input clock_20khz,
